@@ -1,0 +1,18 @@
+{
+  "name": "Zod",
+  "scripts": {
+    "1": "tsnd --respawn 1-basics.ts",
+    "2": "tsnd --respawn 2-parsing.ts",
+    "3": "tsnd --respawn 3-refine.ts",
+    "4": "tsnd --respawn 4-enums.ts"
+  },
+  "packageManager": "yarn@3.6.1",
+  "dependencies": {
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
